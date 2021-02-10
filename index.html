@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>SW Starships</title>
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+  </head>
+  <body onload="generateRandomShip()">
+  <header>
+	  <div class="row">
+		  <div class="col-md-6">
+			  <img src="static/images/Ships.png" width="100%">
+		  </div>
+		  <div class="col-md-6">
+			  <h1>Star Wars starships Generator</h1>
+		  </div>
+	  </div>
+  </header>
+
+	<div class="row">
+		<div class="col-md-6 align-middle">
+			<h2>Informations</h2>
+			<table class="table-bordered align-middle">
+				<tr>
+					<th>Name</td>
+					<td id="name"></td>
+				</tr>
+				<tr>
+					<th>Model</td>
+					<td id="model"></td>
+				</tr>
+				<tr>
+					<th>Class</td>
+					<td id="class"></td>
+				</tr>
+				<tr>
+					<th>Manufacturer</td>
+					<td id="manufacturer"></td>
+				</tr>
+				<tr>
+					<th>Price (in Credit)</td>
+					<td id="price"></td>
+				</tr>
+				<tr>
+					<th>Length (in Meter)</td>
+					<td id="length"></td>
+				</tr>
+				<tr>
+					<th>Number of Crew Members</td>
+					<td id="nbCrew"></td>
+				</tr>
+				<tr>
+					<th>Number of passengers</td>
+					<td id="nbPassenger"></td>
+				</tr>
+				<tr>
+					<th>Maximum Capacity (in kg)</td>
+					<td id="maxCapacity"></td>
+				</tr>
+			</table>
+			<h2>Pilots</h2>
+			<table id="pilots" class="table-bordered align-middle">
+
+			</table>
+			<h2>Movies</h2>
+			<table id="movies" class="table-bordered align-middle">
+
+			</table>
+		</div>
+		<div class="col-md-6">
+			<button type="button" class="btn btn-primary" id="generateButton" onclick="generateRandomShip()">Generate new ship</button>
+			<div id="loading"></div>
+
+		</div>
+	</div>
+	<!-- scripts -->
+	<script src="static/js/script.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </body>
+</html>

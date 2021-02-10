@@ -1,0 +1,56 @@
+body {
+  margin: 1%;
+  background: #020D17;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 1%;
+  color: #FFE414;
+}
+
+h2 {
+  margin: 1%;
+  color: #FFE414;
+  text-align: left;
+}
+
+th {
+  color: #5AE4F7;
+}
+@media only screen and (max-width: 768px) {
+  th {
+    font-size: 2rem;
+  }
+}
+
+td {
+  color: #F0F7F5;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+@media only screen and (max-width: 768px) {
+  td {
+    font-size: 2rem;
+  }
+}
+
+p {
+  color: #F0F7F5;
+}
+@media only screen and (max-width: 768px) {
+  p {
+    font-size: 2rem;
+  }
+}
+
+.btn {
+  font-size: 4rem;
+}
+
+.loading {
+  size: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */

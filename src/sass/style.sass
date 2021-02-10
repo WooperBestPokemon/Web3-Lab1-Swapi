@@ -1,0 +1,38 @@
+//Tablet
+$tablet: 768px
+
+
+$min-margin: 1%
+$subtext-color: #F0F7F5
+$text-color: #5AE4F7
+$title-color: #FFE414
+$background-color : #020D17
+
+body
+	margin: $min-margin
+	background: $background-color
+	text-align: center
+h1
+	font-size: 5rem
+	margin-bottom: $min-margin
+	color: $title-color
+h2
+	margin: $min-margin
+	color: $title-color
+	text-align: left
+th
+	color: $text-color
+	@media only screen and (max-width: $tablet)
+		font-size: 2rem
+td
+	color: $subtext-color
+	padding-left: 3%
+	padding-right: 3%
+	@media only screen and (max-width: $tablet)
+		font-size: 2rem
+p
+	color: $subtext-color
+	@media only screen and (max-width: $tablet)
+		font-size: 2rem
+.btn
+	font-size: 4rem
